@@ -3,7 +3,7 @@
 
 @section('content')
 <div class="flex items-center justify-between gap-2">
-    <h1 class="text-2xl">Book Lists</h1>
+    
     <a href="{{ route('books.create') }}" class="rounded-md px-4 py-2 font-semibold text-sm bg-orange-500 hover:bg-orange-600 text-white shadow-sm transition-colors">Create</a>
 </div>
 <div class="mt-10">

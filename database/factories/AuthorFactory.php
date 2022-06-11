@@ -21,7 +21,7 @@ class AuthorFactory extends Factory
             'first_name' => $this->faker->firstName(),
             'last_name' => $this->faker->lastName(),
             'email' => new Email($this->faker->freeEmail()),
-            'biography' => $this->faker->paragraph(),
+            'biograph' => $this->faker->paragraph(),
         ];
     }
 }
